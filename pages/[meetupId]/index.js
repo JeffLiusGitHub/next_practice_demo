@@ -38,7 +38,7 @@ export const getStaticPaths = async () => {
 	return {
 		//fallback true: can render page beyond path data/ false:only render path data otherwise 404
 
-		fallback: false,
+		fallback: 'blocking',
 		paths: meetups.map((m) => ({ params: { meetupId: m._id.toString() } })),
 	};
 };
