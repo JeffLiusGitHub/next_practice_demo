@@ -1,0 +1,10 @@
+.detail {
+	text-align: center;
+	border-color: cadetblue;
+	border-width: 5px;
+	height: auto;
+}
+
+.detail img {
+	width: 100%;
+}
