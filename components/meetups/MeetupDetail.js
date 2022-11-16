@@ -1,10 +1,8 @@
 import React from 'react';
 import classes from './MeetupDetail.module.css';
-const MeetupDetail = ({ id, src, alt, title, address, desc }) => {
-	console.log(src);
+const MeetupDetail = ({ src, alt, title, address, desc }) => {
 	return (
 		<section className={classes.detail}>
-			{/* <p>{id}</p> */}
 			<img src={src} alt={alt} />
 			<h1>{title}</h1>
 			<address>{address}</address>
